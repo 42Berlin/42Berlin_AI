@@ -22,6 +22,8 @@ venv/
 /42Berlin_AI/Assets/FrostweepGames/StreamingSpeechRecognition/speechContext.txt
 /42Berlin_AI/Assets/FrostweepGames/StreamingSpeechRecognition/speechContext.txt.meta
 /42Berlin_AI/42config.json
+/42Berlin_AI/Assets/OpenCVForUnity/
+/42Berlin_AI/Assets/OpenCVForUnity.meta
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
