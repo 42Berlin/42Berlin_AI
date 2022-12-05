@@ -13,6 +13,7 @@ We make our developments openly available, to build a community of practice with
 - API Key for [Google Cloud](https://cloud.google.com/docs/authentication/api-keys#creating_an_api_key), allowing Speech-to-text and Text-to-speech
 - API Key for [Dialogflow](https://cloud.google.com/dialogflow/es/docs/quick/build-agent)
 - API Key for [OpenWeatherMap](https://home.openweathermap.org/api_keys)
+- [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) (you can get a free demo)
 
 ### Setup
 
