@@ -1,0 +1,5 @@
+{
+    "description": "Bear AI Config file. Delete to reset to defaults.",
+    "serverIP": "localhost",
+    "serverPort": 50007
+}

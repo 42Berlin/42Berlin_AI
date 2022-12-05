@@ -1,0 +1,37 @@
+openai==0.11.0
+python-dotenv==0.19.2
+
+# --- Face Recognition ---
+
+Pillow~=9.2.0
+
+# On Macos, uncomment next lines
+# tensorflow-macos~=2.9.2
+# tensorflow-metal~=0.5.0
+# fire~=0.4.0
+# gdown~=4.5.1
+# opencv-python~=4.6.0.66
+
+# On Windows / Linux, uncomment the next line
+# deepface==0.0.75
+
+# --------------------------
+
+# --- Intent Recognition ---
+
+dialogflow==0.5.1
+geopy==2.2.0
+google-api-core==1.4.1
+python-dateutil==2.8.2
+
+# --------------------------
+
+# --- Img Generation -------
+
+diffusers==0.3.0
+transformers==4.22.2
+torch==1.12.1
+torchvision==0.13.1
+torchaudio
+
+# --------------------------
