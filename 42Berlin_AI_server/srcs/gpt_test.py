@@ -1,0 +1,18 @@
+from utils_debug import *
+from utils_constants import *
+from utils_chat import Chat
+import json
+from service_open_ai import ServiceOpenAI
+from google.protobuf.json_format import MessageToDict
+import os
+import shutil
+
+
+############################### GENERATE ANSWER ##########################################
+config = {
+            "chat_history": None,
+            "chat": Chat(),
+        }
+config['chat_history'] = config['chat'].initial_feeding
+print(config['chat_history'])
+print(ServiceOpenAI().get_gpt3_answer(config['chat_history']))
