@@ -10,9 +10,14 @@ import shutil
 
 ############################### GENERATE ANSWER ##########################################
 config = {
-            "chat_history": None,
-            "chat": Chat(),
-        }
+    "chat": Chat(),
+    "chat_history": None,
+    "request_intent": None,
+    "intent": None,
+}
 config['chat_history'] = config['chat'].initial_feeding
-print(config['chat_history'])
-print(ServiceOpenAI().get_gpt3_answer(config['chat_history']))
+#config['chat_history'] = config['chat'].initial_feeding
+#print(config['chat_history'])
+input = [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "Hello!"}]
+#print(ServiceOpenAI().get_gpt3_answer(config['chat_history']))
+print(ServiceOpenAI().get_gpt3_answer((config["chat_history"])))
